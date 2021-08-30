@@ -1,52 +1,38 @@
 <!DOCTYPE html>
-    <html>
+    
+    <html>    
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
         <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta Charset="utf-8">
-             <title> Kaiphet test page</title>
-             
-             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-        </head>
-        <style>
-        body {background-color: powderblue;
-              width: 600px;
-              margin: 0 auto;
-              padding: 0 20px 20px 20px;
-              border: 5px solid #444444;}
-        html {
-            font-size: 10px;
-            font-family:'Zen+Loop', sans-serif;
-            background-color: #CDF3A2;}
+            <title> Kaiphet test page</title>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+            <link href="style/style.css" rel="stylesheet" type="text/css">
 
-        h1   {font-size: 60px;
-             text-align: center;
-             margin: 0;
-             padding: 20px 0;
-             color: #9B72AA;
-             text-shadow: 3px 3px 1px black;}
+        </head>
         
-        p, li {
-            font-size: 16px;
-            lineheight: 2;
-            letterspace: 1px; }
         
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-        </style>
-        <body>
-              
-                  <h1>Khon Kaen University</h1>
-              
-              <img src="image/KKU.jpg" width = 50% height = 50% alt = "my test image" title = "KKU">
-              <p>Khon Kaen University has many outstanding place</p>
-              <ul> <li>ห้องสมุดมหาวิทยาลัย</li>
+        <body> 
+            <div id ="head1">
+                <h1>Khon Kaen University</h1>
+                <figure>
+                <img src="image/KKU.jpg" width = 50% height = 50% alt = "my test image" title = "KKU">
+                
+                <img src="image/image2.jpg" width = 50% height = 50% alt = "my test image" title = "คณะศึกษาศาสตร์">
+                <figure caption><center> คณะศึกษาศาสตร์ </figure>
+              </figure>
+              <p class = "id-heading">Khon Kaen University has many outstanding place</p>
+              <ul class="lif"> <li class = "popular">ห้องสมุดมหาวิทยาลัย</li>
                    <li>คอมเพล็กซ์</li>
-                   <li>สระพลาสติก</li>
+                   <li class = "popular">สระพลาสติก</li>
               </ul>
-              <p>Have you been in these places? If not please do so. For more information please click <a href="http://www.kku.ac.th" target="_blank"> Khon Kaen University </a></p>
-            
+              <p class ="point">Have you been in these places? If not please do so. For more information please click <a href="http://www.kku.ac.th" target="_blank"> Khon Kaen University </a></p>  
+            </div>
          </body>
+
+
     </html>
     
        

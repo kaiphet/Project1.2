@@ -1,0 +1,127 @@
+
+.id-heading {
+  color: blue;
+  font-size: 24px;
+}
+.popular {
+  border-style: dotted;
+  border-color: red;
+  border-width: 4px;
+  font-size: 20px;
+}
+body {
+  background-color: #cdf3a2;
+  font-size:12px;
+}
+html {
+  font-family: "Zen+Loop", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #9b72aa;
+  text-shadow: 3px 3px 1px black;
+}
+#head1 {
+  background-color: powderblue;
+  width: 80%;
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  border: 5px solid #444444;
+}
+
+.point  {
+  font-size: 14px;
+}
+
+.lif  {
+    font-size: 20px;
+    lineheight: 2;
+    letterspace: 1px;
+  }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:320px) {
+    .popular {
+      font-size: 20px;
+    }
+    .id-heading {
+      font-size: 20px;
+    }
+    .lif {
+      font-size: 20px;
+    }
+    .point {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    body {
+      width: 300px;
+      height: 100%;
+    }
+  
+  .head1 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:768px) and (orientation: landscape) {
+    .popular {
+        font-size: 20px;
+      }
+      .id-heading {
+        font-size: 20px;
+      }
+      .lif {
+        font-size: 20px;
+      }
+      .point {
+        font-size: 20px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      body {
+        width: 200%px;
+        height: 100%;
+      }
+    
+      .head1 {
+      width: 500px;
+    }
+  }
+
+  @media screen and (max-width:1023px) {
+    .popular {
+      font-size: 40px;
+    }
+    .id-heading {
+      font-size: 40px;
+    }
+    .lif {
+      font-size: 40px;
+    }
+    .point {
+      font-size: 40px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    body {
+      width: 250%;
+      height: 100%;
+    }
+  
+  .head1 {
+    width: 500px;
+  }
+}
